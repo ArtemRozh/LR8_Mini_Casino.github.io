@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Lr 8</title>
+    <link rel="stylesheet" href="..\CSS\style.css"> 
+    <script src="..\JS\script.js" defer></script>
+</head>
+<body>
+    <div class="game_field">
+        <div class="stat_stat_container">
+            <div class="stat_container">
+                <div class="name_container" id="playerName"> Player </div>
+                <div class="heart_container" id="playerHeart">
+                    <img src="../IMG/Heart.png">
+                    <img src="../IMG/Heart.png">
+                    <img src="../IMG/Heart.png">
+                </div>
+                <div class="slot_container" id="slotPlayer">
+                    <div class="slot" id="slot1">0</div>
+                    <div class="slot" id="slot2">0</div>
+                    <div class="slot" id="slot3">0</div>
+                </div>
+                <div id="playerRes">Player result</div>
+            </div>
+
+            <button id="spin"> Крути </button>
+
+            <div class="stat_container">
+                <div class="name_container"> CPU </div>
+                <div class="heart_container" id="cpuHeart">
+                    <img src="../IMG/Heart.png">
+                    <img src="../IMG/Heart.png">
+                    <img src="../IMG/Heart.png">
+                </div>
+                <div class="slot_container" id="slotCPU">
+                    <div class="slot" id="slot4">0</div>
+                    <div class="slot" id="slot5">0</div>
+                    <div class="slot" id="slot6">0</div>
+                </div>
+                <div id="cpuRes">CPU result</div>
+            </div>
+        </div>
+
+        <div id="verdict"> Результат... </div>
+    </div>
+    <div id="overlay">
+        <image src="" id="overImg"></image><br>
+        Натисніть куди-небудь щоб розпочати знов
+    </div>
+</body>
+</html>
