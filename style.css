@@ -5,6 +5,7 @@ body {
 	justify-content: center;	
 	background-image: url("../IMG/Lr8_BG1.jpg");
 	background-size: cover;
+	heigth: 100%;
 }
 
 .game_field {
