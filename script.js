@@ -60,15 +60,15 @@ function whenDone(){
         let CPU = parseInt(cpuRes.textContent);
         if (player - CPU > 0){
             verdict.textContent = "За гравцем";
-            const cpuHearts = Array.from(document.querySelectorAll("#cpuHeart img[src='../IMG/Heart.png']"))
+            const cpuHearts = Array.from(document.querySelectorAll("#cpuHeart img[src='IMG/Heart.png']"))
             const cpuLastHeart = cpuHearts.pop();
-            cpuLastHeart.src = "../IMG/Empty_Heart.png";
+            cpuLastHeart.src = "IMG/Empty_Heart.png";
             hitPoints[1]--;
         } else if (player - CPU < 0) {
             verdict.textContent = "Очко комп'ютеру";
-            const playerHeart = Array.from(document.querySelectorAll("#playerHeart img[src='../IMG/Heart.png']"))
+            const playerHeart = Array.from(document.querySelectorAll("#playerHeart img[src='IMG/Heart.png']"))
             const playerLastHeart = playerHeart.pop();
-            playerLastHeart.src = "../IMG/Empty_Heart.png";
+            playerLastHeart.src = "IMG/Empty_Heart.png";
             hitPoints[0]--;
         } else {
             verdict.textContent = "Нічия";
@@ -76,11 +76,11 @@ function whenDone(){
 
         if (hitPoints[0] === 0) {
             //alert("Game Over! CPU Wins!");
-            overSrc = "../IMG/LScreen.png";
+            overSrc = "IMG/LScreen.png";
             showOverlay(overSrc);
         } else if (hitPoints[1] === 0) {
             //alert("Game Over! Player Wins!");
-            overSrc = "../IMG/WScreen.png";
+            overSrc = "IMG/WScreen.png";
             showOverlay(overSrc);
         }
     }
@@ -97,12 +97,12 @@ overlay.addEventListener('click', () => {
 
     const playerHeartContainer = document.querySelectorAll("#playerHeart img");
     playerHeartContainer.forEach(heart => {
-        heart.src = "../IMG/Heart.png";
+        heart.src = "IMG/Heart.png";
     });
 
     const cpuHeartContainer = document.querySelectorAll("#cpuHeart img");
     cpuHeartContainer.forEach(heart => {
-        heart.src = "../IMG/Heart.png"; 
+        heart.src = "IMG/Heart.png"; 
     });
 
     const allSlots = document.querySelectorAll(".slot");
