@@ -3,7 +3,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;	
-	background-image: url("../IMG/Lr8_BG1.jpg");
+	background-image: url("IMG/Lr8_BG1.jpg");
 	background-size: cover;
 	height: 100vh;
 }
@@ -59,7 +59,7 @@ body {
 	display: flex; 
     justify-content: center; 
     align-items: center; 
-	background-image: url("../IMG/Name_Field.png");
+	background-image: url("IMG/Name_Field.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -110,7 +110,7 @@ body {
 }
 
 #slotPlayer{
-	background-image: url("../IMG/GAMBA_LEFT.png");
+	background-image: url("IMG/GAMBA_LEFT.png");
 	background-size: cover;
 	background-position: center;
 	padding-left: 35px;
@@ -118,7 +118,7 @@ body {
 }
 
 #slotCPU{
-	background-image: url("../IMG/GAMBA_RIGHT.png");
+	background-image: url("IMG/GAMBA_RIGHT.png");
 	background-size: cover;
 	background-position: center;
 	padding-right: 35px;
@@ -126,7 +126,7 @@ body {
 }
 
 #playerRes, #cpuRes{
-	background-image: url("../IMG/text_frame.png");
+	background-image: url("IMG/text_frame.png");
 	background-size: cover;
 	background-position: center;
 	text-align: center;
